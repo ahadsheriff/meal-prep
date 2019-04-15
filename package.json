@@ -40,6 +40,10 @@
       "parser": "babel-eslint"
     }
   },
+  "prettier": {
+    "tabWidth": 4,
+    "singleQuote": true
+  },
   "postcss": {
     "plugins": {
       "autoprefixer": {}
