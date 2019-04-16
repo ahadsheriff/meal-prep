@@ -12,6 +12,7 @@
                 </template>
             </v-list>
         </v-navigation-drawer>
+
         <v-toolbar app color="brown darken-4" dark>
             <v-toolbar-side-icon class="hidden-md-and-up" @click="drawer = !drawer"></v-toolbar-side-icon>
             <v-spacer class="hidden-md-and-up"></v-spacer>
@@ -21,8 +22,10 @@
             <v-btn flat class="hidden-sm-and-down">SIGN IN</v-btn>
             <v-btn color="brown lighten-3" class="hidden-sm-and-down">JOIN</v-btn>
         </v-toolbar>
+
     </span>
 </template>
+
 
 <script>
 export default {
