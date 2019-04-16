@@ -8,11 +8,9 @@
                     </v-toolbar>
                     <v-card-text>
                         <v-form ref="form" v-model="valid" lazy-validation>
-                            <v-text-field prepend-icon="person" name="email" label="Email" type="email"
-                                          v-model="email" :rules="emailRules" required>
+                            <v-text-field prepend-icon="person" name="email" label="Email" type="email" v-model="email" :rules="emailRules" required>
                             </v-text-field>
-                            <v-text-field prepend-icon="lock" name="password" label="Password" id="password"
-                                          type="password" required v-model="password" :rules="passwordRules">
+                            <v-text-field prepend-icon="lock" name="password" label="Password" id="password" type="password" required v-model="password" :rules="passwordRules">
                             </v-text-field>
                         </v-form>
                     </v-card-text>
@@ -28,7 +26,7 @@
 
 <script>
 export default {
-    name: 'Signin',
+    name: 'SignIn',
     data() {
         return {
             valid: false,
