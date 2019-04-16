@@ -4,7 +4,7 @@
             <v-flex xs12 sm8 md4>
                 <v-card class="elevation-12">
                     <v-toolbar dark color="primary">
-                        <v-toolbar-title>Join Form</v-toolbar-title>
+                        <v-toolbar-title>Enroll</v-toolbar-title>
                     </v-toolbar>
                     <v-card-text>
                         <v-form ref="form" v-model="valid" lazy-validation>
@@ -16,7 +16,7 @@
                     </v-card-text>
                     <v-card-actions>
                         <v-spacer></v-spacer>
-                        <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="joinSubmitBtn">Join</v-btn>
+                        <v-btn color="primary" :disabled="!valid" @click="submit" data-cy="joinSubmitBtn">Enroll</v-btn>
                     </v-card-actions>
                 </v-card>
             </v-flex>
