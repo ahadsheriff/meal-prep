@@ -23,7 +23,7 @@ export default new Router({
         {
             path: '/sign-in',
             name: 'signin',
-            component: () => import('./views/Signin.vue')
+            component: () => import('./views/SignIn.vue')
         },
         {
             path: '/join',
