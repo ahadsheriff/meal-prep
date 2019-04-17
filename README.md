@@ -1,5 +1,8 @@
 # meal-prep
 
+## Demo
+[https://determined-lovelace-36fd73.netlify.com](https://determined-lovelace-36fd73.netlify.com)
+
 ## Project setup
 ```
 npm install
